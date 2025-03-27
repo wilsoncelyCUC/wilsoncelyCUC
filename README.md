@@ -8,7 +8,7 @@
 
 - 💬 Ask me about **Ruby on Rails, User flow, Ultimate UX, Marketplace, JS, Active Records**
 
-- 📫 How to reach me **wectcorp@gmail.com**
+- 📫 How to reach me **campanazzo.servicios@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
