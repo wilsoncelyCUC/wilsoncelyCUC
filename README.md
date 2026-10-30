@@ -3,33 +3,25 @@
 I run agentic AI programs, and I build the agents myself so I know what I'm managing.
 Fifteen years taking IT, telecom and payment products live. Now I bring that to AI. Based in Munich.
 
-## What I'm building
+## My lab
 
-**Career Brain**: an AI job-search product. [Try it](https://career-brain-v3.vercel.app/login) (the repo is private).
+**Career Brain** is where I test new AI techniques on real use: agents, classifiers, evals,
+cost tracking. A small group of friends uses it, and they know it's a test bed. It's not commercial.
+It's how I learn what works before I recommend it to anyone.
 
-- Agents on Google ADK (TypeScript), Next.js, Postgres on Supabase, deployed on Vercel
-- Nightly jobs read company job boards (Greenhouse, Ashby) and match postings to a person's record
-- Every model call goes through a cost ledger with spending limits; every agent step is traced
+## How I judge an agent
 
-It's built by a team of AI coding agents (Claude Code, Gemini, Codex) working in parallel lanes.
-I run the program: specs, reviews, merge decisions, what ships and what waits.
-Since September 2026: 350 pull requests merged, about 1,500 commits.
+    1 OUTCOME      did it do the job? (judge the final answer)
+    2 PATH         did it get there sensibly? (check every step it took)
+    3 FOUR CHECKS  effective · efficient · robust · safe
+    4 LOOP         every failure becomes a new test case
 
-## How I take an agent from idea to live
+Adapted from Google's *Agent Quality* framework (Kaggle × Google AI Agents Intensive).
 
-    spec → build → ID card → traces → exam → ship → watch
-
-- No code before the spec says what the agent must do and must never do.
-- Each agent has an ID card: its role, its tools, its own cost line and its limits.
-- At least 20 exam cases before anyone outside the team sees it. The path and the answer are
-  scored separately, and the judge is a different model from the agent.
-- It ships behind a switch to named people first. Real complaints become new exam cases.
-
-## Open work
+## What a program manager needs to master in AI: cost and quality
 
 - [**tokenomics-from-scratch**](https://github.com/wilsoncelyCUC/tokenomics-from-scratch): what an AI task really costs.
   Optimise for the cheapest reliable completed task, not the cheapest model.
-  In progress: 3 of 8 lessons, a cost calculator and a routing simulator.
 
 ## Tools I use every day
 
