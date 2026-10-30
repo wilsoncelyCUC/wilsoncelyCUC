@@ -1,20 +1,45 @@
-### Hi there 👋
-<h1 align="center">Hi 👋, I'm Wilson CELY</h1>
-<h3 align="center">A passionate for entrepreneurship and code</h3>
+# Wilson Cely
 
-- 🔭 I’m currently working on [Campanazzo](https://github.com/wilsoncelyCUC/CAMPANAZZO)
+I run agentic AI programs, and I build the agents myself so I know what I'm managing.
+Fifteen years taking IT, telecom and payment products live. Now I bring that to AI. Based in Munich.
 
-- 👨‍💻 All of my projects are available at [https://github.com/wilsoncelyCUC](https://github.com/wilsoncelyCUC)
+## What I'm building
 
-- 💬 Ask me about **Ruby on Rails, User flow, Ultimate UX, Marketplace, JS, Active Records**
+**Career Brain**: an AI job-search product. [Try it](https://career-brain-v3.vercel.app/login) (the repo is private).
 
-- 📫 How to reach me **campanazzo.servicios@gmail.com**
+- Agents on Google ADK (TypeScript), Next.js, Postgres on Supabase, deployed on Vercel
+- Nightly jobs read company job boards (Greenhouse, Ashby) and match postings to a person's record
+- Every model call goes through a cost ledger with spending limits; every agent step is traced
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/wilson_cely" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="wilson_cely" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/wilsoncely/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/wilsoncely/" height="30" width="40" /></a>
-</p>
+It's built by a team of AI coding agents (Claude Code, Gemini, Codex) working in parallel lanes.
+I run the program: specs, reviews, merge decisions, what ships and what waits.
+Since September 2026: 350 pull requests merged, about 1,500 commits.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://rubyonrails.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
+## How I take an agent from idea to live
+
+    spec → build → ID card → traces → exam → ship → watch
+
+- No code before the spec says what the agent must do and must never do.
+- Each agent has an ID card: its role, its tools, its own cost line and its limits.
+- At least 20 exam cases before anyone outside the team sees it. The path and the answer are
+  scored separately, and the judge is a different model from the agent.
+- It ships behind a switch to named people first. Real complaints become new exam cases.
+
+## Open work
+
+- [**tokenomics-from-scratch**](https://github.com/wilsoncelyCUC/tokenomics-from-scratch): what an AI task really costs.
+  Optimise for the cheapest reliable completed task, not the cheapest model.
+  In progress: 3 of 8 lessons, a cost calculator and a routing simulator.
+
+## Tools I use every day
+
+Claude Code · Gemini CLI · Codex · Google ADK · TypeScript / Next.js · Python · Postgres (Supabase) · Vercel
+
+## Learning in public
+
+Google × Kaggle AI Agents Intensive · DeepLearning.AI (multi-agent systems, agentic knowledge
+graphs, agent evaluation) · Microsoft Learn: Azure AI Foundry agents · Hugging Face open models
+
+## Find me
+
+[exore.net](https://exore.net) · [LinkedIn](https://www.linkedin.com/in/wilsoncely/) · Co-organiser, AAIF Munich chapter
