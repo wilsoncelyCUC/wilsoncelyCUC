@@ -22,6 +22,8 @@ Adapted from Google's *Agent Quality* framework (Kaggle × Google AI Agents Inte
 
 - [**tokenomics-from-scratch**](https://github.com/wilsoncelyCUC/tokenomics-from-scratch): what an AI task really costs.
   Optimise for the cheapest reliable completed task, not the cheapest model.
+- [**evals-from-scratch**](https://github.com/wilsoncelyCUC/evals-from-scratch): how to prove an agent works before it ships.
+  Judge the answer and the path; find whether the plan, the steps or the answer went wrong.
 
 ## Tools I use every day
 
