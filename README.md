@@ -25,6 +25,11 @@ Adapted from Google's *Agent Quality* framework (Kaggle × Google AI Agents Inte
 - [**evals-from-scratch**](https://github.com/wilsoncelyCUC/evals-from-scratch): how to prove an agent works before it ships.
   Judge the answer and the path; find whether the plan, the steps or the answer went wrong.
 
+## What I curate
+
+- [**awesome-ai-program-management**](https://github.com/wilsoncelyCUC/awesome-ai-program-management): resources for people who decide about AI programs.
+  Every entry checked against its primary source and read by me before it goes in.
+
 ## Tools I use every day
 
 Claude Code · Gemini CLI · Codex · Google ADK · TypeScript / Next.js · Python · Postgres (Supabase) · Vercel
